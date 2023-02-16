@@ -1,3 +1,11 @@
+.title-studio {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+li {
+  list-style-type: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #c0c0c0;
@@ -42,115 +50,62 @@ cursor {
   line-height: 1.33;
   background: #2e2f42;
 }
-/* sektion-2 */
-.title-Strategy {
-  color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33px;
-}
-.title-Diligence {
-  color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33;
-}
-.title-Technologies {
-  color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33;
-}
-.text-style {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.33;
-}
-/* sektion-3 */
 .title-What {
-  color: #2e2f42;
   font-size: 36px;
   line-height: 1.33;
+  color: #2e2f42;
 }
-/* sektion-4 */
 .title-Our {
-  color: #2e2f42;
   font-size: 36px;
   line-height: 1.33;
-}
-.title-name {
   color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33;
+  background: #F4F4FD;
 }
-.text-profession {
-  color: #434455;
+.button {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 24px;
+  width: 69px;
+  height: 1.33;
+}
+.button :hover {
+  color: #4d5ae5;
+}
+.button :focus {
+  color: #2e2f42;
 }
 /* Row-1 */
-.title-Filter-Btn-Active {
-  color: #434455;
-}
-.title-Banking {
-  color: #2e2f42;
+.list-title {
   font-size: 20px;
   line-height: 1.33;
-}
-.title-Cashless {
   color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33;
 }
-.title-Meditaion {
-  color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33;
-}
-.text-style {
-  color: #434455;
+.list-text {
   font-size: 16px;
   line-height: 1.33;
-}
-/* Row-2 */
-.taxi-service {
-  color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.33;
-}
-.screen-illustrations {
-  font-size: 20px;
-  line-height: 1.33;
-  color: #2e2f42;
-}
-.online-courses {
-  font-size: 20px;
-  line-height: 1.33;
-  color: #2e2f42;
-}
-/* Row-3 */
-.instagram-stories-concept {
-  font-size: 20px;
-  line-height: 1.33;
-  color: #2e2f42;
-}
-.organic-food {
-  font-size: 20px;
-  line-height: 1.33;
-  color: #2e2f42;
-}
-.fresh-coffee {
-  font-size: 20px;
-  line-height: 1.33;
-  color: #2e2f42;
+  color: #434455;
 }
 .footer {
   background: #2e2f42;
 }
-.text-footer{
-    font-size: 16px;
-line-height: 1.33;
-color: #E7E9FC;
+.text-footer {
+  font-size: 16px;
+  line-height: 1.33;
+  color: #e7e9fc;
 }
-.logo{
-    font-size: 18px;
-line-height: 1.33;
-color: #4D5AE5;
+.logo-web {
+  font-size: 18px;
+  line-height: 1.33;
+  color: #4d5ae5;
+}
+.logo-studio {
+  font-size: 18px;
+  line-height: 1.33;
+  color: #f4f4fd;
 }
